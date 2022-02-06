@@ -1,0 +1,68 @@
+html, body, footer {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+}
+.header nav{
+    padding-right: 80px;
+    padding-top: 20px;
+    float: right;
+}
+.header nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.cover{
+    background-image: url(https://unsplash.com/photos/twukN12EN7c) ;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+main{
+    position: absolute;
+    text-align: center;
+    padding: 300px;
+}
+.myname{
+    font-size: 78px;
+    color:#6BD9F2;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+.scroll{
+    width: 50px;
+    height: 50px; 
+}
+.scrolla{
+    position: absolute;
+    margin-top: 200px;
+}
+.section{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+section h1{
+    padding-top:50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+.intro{
+    width: 400px;
+    padding: 50px;
+    position: absolute;
+    display: inline-block; 
+}
