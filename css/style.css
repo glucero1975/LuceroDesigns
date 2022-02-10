@@ -3,6 +3,9 @@ html, body, footer {
     padding: 0;
 }
 
+body {
+    text-decoration: none;
+}
 .header{
     width: 100%;
     position: fixed;
